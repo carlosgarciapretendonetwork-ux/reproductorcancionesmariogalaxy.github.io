@@ -23,6 +23,7 @@ const songs = [
     { name: 'Star Festival', file: 'star_festival.mp3', cover: 'star_festival.jpg' },
     { name: 'Comet Observatory', file: 'comet_observatory.mp3', cover: 'comet_observatory.jpg' },
     { name: 'Honeyhive Galaxy', file: 'honeyhive_galaxy.mp3', cover: 'honeyhive_galaxy.jpg' },
+    { name: 'Bowsers Galaxy Reactor', file: 'bowsers_galaxy_reactor.mp3', cover: 'bowsers_galaxy_reactor.jpg' },
 ];
 
 // Canción actual por índice
@@ -114,4 +115,5 @@ nextBtn.addEventListener('click', nextSong);
 audio.addEventListener('timeupdate', updateProgress);
 progressContainer.addEventListener('click', setProgress);
 audio.addEventListener('ended', nextSong);
+
 audio.addEventListener('loadedmetadata', updateProgress);
