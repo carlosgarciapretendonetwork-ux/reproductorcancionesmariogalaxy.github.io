@@ -117,3 +117,4 @@ progressContainer.addEventListener('click', setProgress);
 audio.addEventListener('ended', nextSong);
 
 audio.addEventListener('loadedmetadata', updateProgress);
+
